@@ -1,0 +1,106 @@
+.stickied .title {
+    color:#c5aa68!important;
+}
+
+
+/* online change*/
+.subscribers .word {
+display: none;
+}  
+.subscribers .number::after {
+content: " LCK Fans";
+}
+.users-online .word {
+display: none;
+}  
+.users-online .number::after {
+content: " fighting!";
+}
+
+
+#header-img[id] { display: none; }
+#header .pagename a {
+	display: block;
+	width: 354px;
+	height: 140px;
+	background-image: url(%%cklogo%%);
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	background-size: auto 140px;
+}
+
+/*1.0(START)Header*/
+#header { position: relative; background: #000 url(%%background1%%) repeat-x center 15px; height: 270px; box-shadow: inset 0 0 60px #000; background-color: #21468b; -webkit-animation: fond 100s linear infinite; animation: fond 100s linear infinite; }
+@keyframes fond { from { background-position: 9600px 16px; } to { background-position:  0px 16px; } }
+#header .tabmenu { position: absolute; left: 7.5%; right: 0; bottom: 0; text-align: center; }
+#header .tabmenu li a { display: inline-block; background-color: transparent; border: none; margin: 0; padding: 0px 17px; font-size: 11px; text-transform: uppercase; line-height: 18px; color: #ffffff; text-shadow: 0 1px 0 #000; }
+#header .tabmenu a:hover { color: #ae1c28; }
+#header-bottom-left a img{ display:default; position: absolute; left: 2.5%; top: 50%; }
+/*1.0(xENDx)Header*/
+
+
+.flair {
+    background: url(%%ko%%) no-repeat -9999px;
+    border: 0;
+    padding: 0;
+}
+
+.flair-e8w {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -24px;
+}
+
+.flair-afr {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -48px;
+}
+
+.flair-bbq {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -72px;
+}
+
+.flair-jag {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -96px;
+}
+
+.flair-ktr {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -120px;
+}
+
+.flair-lzg {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -144px;
+}
+
+.flair-mvp {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -168px;
+}
+
+.flair-rox {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -192px;
+}
+
+.flair-skt {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -216px;
+}
+
+.flair-ssg {
+    width: 24px;
+    height: 24px;
+    background-position: 0 -240px;
+}
